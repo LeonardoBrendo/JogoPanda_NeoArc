@@ -1,9 +1,6 @@
 extends Node3D
-
 class_name SpringArmCharacter
-
 const _MOUSE_SENSIBILITY: float = 0.003
-
 @export_category("Objects")
 @export var _spring_arm: SpringArm3D = null
 
